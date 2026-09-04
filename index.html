@@ -5,257 +5,133 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>欧洲12天跟团游终极对比：A vs B</title>
 <style>
-  :root {
-    --bg: #f5f7fb;
-    --card: #ffffff;
-    --text: #1f2937;
-    --muted: #6b7280;
-    --line: #e5e7eb;
-    --accent: #2563eb;
-    --accent2: #7c3aed;
-    --green: #059669;
-    --orange: #ea580c;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
-    "Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
-    background: linear-gradient(135deg,#eef4ff 0%,#f8f5ff 45%,#f7faf9 100%);
-    color: var(--text); line-height: 1.7;
-  }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 22px 70px; }
-  .hero {
-    background: rgba(255,255,255,.88); border: 1px solid rgba(255,255,255,.8);
-    border-radius: 28px; padding: 42px 40px; box-shadow: 0 18px 60px rgba(31,41,55,.09);
-    margin-bottom: 24px;
-  }
-  .eyebrow { color: var(--accent); font-weight: 800; letter-spacing: .08em; font-size: 13px; }
-  h1 { font-size: clamp(30px,5vw,50px); line-height: 1.15; margin: 10px 0 15px; }
-  .hero p { color: var(--muted); font-size: 17px; margin: 0; }
-  .verdict {
-    margin-top: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
-  }
-  .price {
-    background: linear-gradient(135deg,#eff6ff,#eef2ff); border-radius: 20px; padding: 20px;
-  }
-  .price.b { background: linear-gradient(135deg,#ecfdf5,#f0fdf4); }
-  .price .tag { font-size: 13px; font-weight: 800; color: var(--muted); }
-  .price strong { display:block; font-size: 34px; margin: 3px 0; }
-  .price span { color: var(--muted); }
-  .winner {
-    margin-top: 18px; padding: 18px 20px; border-radius: 18px;
-    background: #111827; color: white; font-size: 19px; font-weight: 750;
-  }
-  section {
-    background: var(--card); border-radius: 24px; padding: 30px;
-    margin-top: 22px; box-shadow: 0 10px 35px rgba(31,41,55,.06);
-  }
-  h2 { margin: 0 0 18px; font-size: 27px; }
-  h3 { margin: 25px 0 10px; font-size: 20px; }
-  .table-wrap { overflow-x:auto; }
-  table { width:100%; border-collapse:collapse; min-width:700px; }
-  th,td { padding: 13px 14px; border-bottom:1px solid var(--line); text-align:left; }
-  th { background:#f8fafc; font-size:14px; color:#475569; }
-  td:first-child { font-weight:700; }
-  .good { color:var(--green); font-weight:800; }
-  .mid { color:var(--orange); font-weight:750; }
-  .score {
-    display:grid; grid-template-columns: 1fr 1fr; gap:16px; margin-top:20px;
-  }
-  .score-card { border:1px solid var(--line); border-radius:20px; padding:22px; }
-  .score-card.b { border:2px solid #10b981; }
-  .score-number { font-size:40px; font-weight:900; }
-  .meter { height:9px; background:#e5e7eb; border-radius:99px; overflow:hidden; margin:8px 0 14px; }
-  .meter i { display:block; height:100%; width:92%; background:#2563eb; border-radius:99px; }
-  .score-card.b .meter i { width:90%; background:#059669; }
-  ul { padding-left: 22px; }
-  li { margin: 7px 0; }
-  .highlight {
-    border-left:5px solid var(--accent); background:#f8fafc; padding:15px 18px;
-    border-radius: 0 14px 14px 0; margin:16px 0;
-  }
-  .decision {
-    display:grid; grid-template-columns:repeat(3,1fr); gap:14px;
-  }
-  .decision div { padding:18px; border-radius:18px; background:#f8fafc; }
-  .decision b { display:block; margin-bottom:5px; }
-  .footer { text-align:center; color:var(--muted); margin-top:30px; font-size:13px; }
-  @media(max-width:720px){
-    .wrap{padding:22px 12px 45px}.hero,section{padding:22px;border-radius:20px}
-    .verdict,.score,.decision{grid-template-columns:1fr}
-  }
+:root{--bg:#f4f7fb;--card:#fff;--text:#1f2937;--muted:#667085;--line:#e6eaf0;--blue:#2563eb;--green:#059669;--orange:#ea580c;--dark:#111827}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;color:var(--text);background:linear-gradient(135deg,#eef5ff,#faf7ff 48%,#f3fbf8);line-height:1.78}
+.wrap{max-width:1120px;margin:auto;padding:38px 20px 70px}.hero,section{background:#fff;border-radius:24px;box-shadow:0 10px 35px rgba(31,41,55,.055)}
+.hero{padding:42px;margin-bottom:22px}.eyebrow{font-size:13px;letter-spacing:.12em;font-weight:900;color:var(--blue)}
+h1{font-size:clamp(32px,5vw,54px);line-height:1.12;margin:10px 0 15px}.subtitle{font-size:18px;color:var(--muted)}
+.price-grid,.cards,.score,.split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}.price{padding:21px;border-radius:20px;background:#eff6ff;border:1px solid #dbeafe}.price.b{background:#ecfdf5;border-color:#bbf7d0}.price .label{font-weight:800;color:var(--muted);font-size:14px}.price strong{display:block;font-size:35px;line-height:1.2;margin:5px 0}
+.winner{margin-top:18px;background:var(--dark);color:#fff;border-radius:18px;padding:18px 20px;font-size:20px;font-weight:800}
+.toc{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.toc a{text-decoration:none;color:#334155;background:#f8fafc;border:1px solid var(--line);padding:8px 12px;border-radius:999px;font-size:14px}
+section{padding:30px;margin-top:22px}h2{font-size:29px;line-height:1.25;margin:0 0 17px}h3{font-size:21px;margin:25px 0 9px}p{margin:9px 0}ul{padding-left:22px}li{margin:7px 0}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:760px}th,td{padding:12px 13px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#f8fafc;color:#475569;text-align:left;font-size:14px}td:first-child{font-weight:750}.good{color:var(--green);font-weight:800}.warn{color:var(--orange);font-weight:800}
+.card,.score-card,.decision{border:1px solid var(--line);border-radius:19px;padding:19px;background:#fff}.card.b,.score-card.b{border:2px solid #10b981}.tag{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;font-weight:800;background:#eff6ff;color:#1d4ed8}.tag.green{background:#ecfdf5;color:#047857}
+.callout{border-left:5px solid var(--blue);background:#f8fafc;border-radius:0 14px 14px 0;padding:16px 18px;margin:17px 0}.callout.green{border-left-color:var(--green)}.callout.orange{border-left-color:var(--orange)}
+.route{background:#f8fafc;border-radius:18px;padding:17px 18px;font-weight:700;margin:10px 0}.verdict-box{background:linear-gradient(135deg,#f0fdf4,#ecfdf5);border:1px solid #bbf7d0;border-radius:20px;padding:22px}
+.score-num{font-size:42px;font-weight:950;line-height:1}.meter{height:8px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin:10px 0 12px}.meter i{display:block;height:100%;width:80%;background:#2563eb;border-radius:99px}.score-card.b .meter i{width:92%;background:#059669}
+.decision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.decision{background:#f8fafc}.decision b{display:block;font-size:18px;margin-bottom:6px}.note,.footer{color:var(--muted);font-size:13px}.footer{text-align:center;padding-top:25px}
+@media(max-width:760px){.wrap{padding:18px 12px 45px}.hero,section{padding:22px;border-radius:20px}.price-grid,.cards,.score,.split,.decision-grid{grid-template-columns:1fr}}
 </style>
 </head>
-<body>
-<div class="wrap">
+<body><div class="wrap">
 
-  <div class="hero">
-    <div class="eyebrow">EUROPE 12-DAY TOUR · A VS B</div>
-    <h1>欧洲12天跟团游<br>到底选 A 还是 B？</h1>
-    <p>一份给小伙伴看的“认真对比 + 最终拍板”版结论。</p>
-
-    <div class="verdict">
-      <div class="price">
-        <div class="tag">方案 A · 王牌法意瑞</div>
-        <strong>¥29,800</strong>
-        <span>每人 · 两人 ¥59,600</span>
-      </div>
-      <div class="price b">
-        <div class="tag">方案 B · 意瑞法深度游</div>
-        <strong>¥28,800</strong>
-        <span>每人 · 两人 ¥57,600</span>
-      </div>
-    </div>
-    <div class="winner">🏆 最终倾向：B。不是因为便宜 ¥1,000，而是因为同价位下旅行结构更好。</div>
-  </div>
-
-  <section>
-    <h2>一眼看懂</h2>
-    <div class="table-wrap">
-      <table>
-        <tr><th>维度</th><th>A · ¥29,800</th><th>B · ¥28,800</th></tr>
-        <tr><td>价格</td><td>¥29,800/人</td><td class="good">¥28,800/人</td></tr>
-        <tr><td>自由度</td><td>⭐⭐</td><td class="good">⭐⭐⭐⭐</td></tr>
-        <tr><td>城市深度</td><td>⭐⭐⭐</td><td class="good">⭐⭐⭐⭐</td></tr>
-        <tr><td>瑞士自然风光</td><td>⭐⭐⭐⭐</td><td class="good">⭐⭐⭐⭐⭐</td></tr>
-        <tr><td>巴黎体验</td><td class="good">⭐⭐⭐⭐⭐</td><td>⭐⭐⭐⭐</td></tr>
-        <tr><td>餐食包含</td><td class="good">⭐⭐⭐⭐⭐</td><td>⭐⭐⭐</td></tr>
-        <tr><td>购物属性</td><td class="mid">较明显</td><td class="good">较弱</td></tr>
-        <tr><td>额外消费压力</td><td class="good">低</td><td class="mid">较高</td></tr>
-        <tr><td>整体旅行体验</td><td>⭐⭐⭐⭐</td><td class="good">⭐⭐⭐⭐⭐</td></tr>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>A：传统高端“全包型”欧洲团</h2>
-    <p><b>关键词：</b>景点多、吃住行省心、经典路线、巴黎很强，但节奏紧、自由度较低。</p>
-
-    <h3>路线亮点</h3>
-    <p>罗马 → 锡耶纳 → 佛罗伦萨 → 比萨 → 五渔村 → 威尼斯 → 米兰 → 卢塞恩 → 因特拉肯/少女峰 → 科尔马等 → 巴黎。</p>
-
-    <h3>巴黎是 A 的王牌</h3>
-    <ul>
-      <li>卢浮宫 VIP/官方授权导览</li>
-      <li>巴黎圣母院入内</li>
-      <li>塞纳河星级船餐厅午餐</li>
-      <li>凡尔赛宫 VIP/官方授权导览</li>
-      <li>埃菲尔铁塔夜间闪灯秀</li>
-      <li>巴黎老佛爷附近约 2 小时自由活动</li>
-    </ul>
-
-    <div class="highlight">
-      <b>A 最大优势：</b>如果第一次去欧洲，想把“经典欧洲名片”一次性打卡，而且不想操心吃饭、门票、交通，A 非常稳。
-    </div>
-
-    <h3>A 的问题</h3>
-    <ul>
-      <li>整体是传统高密度跟团游，城市停留相对赶。</li>
-      <li>有明确购物安排：佛罗伦萨皮具店、法国老佛爷/DFS 等。</li>
-      <li>自由探索时间明显少于 B。</li>
-      <li>虽然价格高一点，但很多餐食和服务已经包含，实际花费更可控。</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>B：更像“真正去欧洲旅行”</h2>
-    <p><b>关键词：</b>自由度、城市深度、瑞士自然风光、TGV、高质量景点组合。</p>
-
-    <h3>路线亮点</h3>
-    <p>罗马 → 佛罗伦萨 → 比萨 → 威尼斯 → 米兰 → 卢塞恩 → 龙疆 → 少女峰 → 菲斯特雪山 → 黄金列车 → 蒙特勒 → 日内瓦 → 巴黎。</p>
-
-    <h3>我比较看重的配置</h3>
-    <ul>
-      <li>罗马斗兽场</li>
-      <li>米兰大教堂入内</li>
-      <li>少女峰</li>
-      <li>菲斯特雪山缆车</li>
-      <li>黄金列车</li>
-      <li>日内瓦</li>
-      <li>日内瓦 → 巴黎 TGV 二等座</li>
-      <li>卢浮宫 1 小时人工讲解</li>
-      <li>凡尔赛宫 1.5 小时人工讲解</li>
-      <li>巴黎歌剧院</li>
-    </ul>
-
-    <div class="highlight">
-      <b>B 最大优势：</b>不是单纯“景点更多”，而是给了你更多自己走、自己逛、自己安排的时间。对于夫妻两个人旅行，这一点价值很高。
-    </div>
-
-    <h3>B 的问题</h3>
-    <ul>
-      <li>不是严格意义上的“一价全含”。</li>
-      <li>部分餐食需要自理。</li>
-      <li>存在多个可选自费项目：乌菲兹专家导览、威尼斯深度游、巴黎深度游、荣军院等。</li>
-      <li>如果看到什么都想加，最终花费可能明显高于 ¥28,800/人。</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>真正的关键：两个人最终会花多少钱？</h2>
-    <div class="table-wrap">
-      <table>
-        <tr><th>项目</th><th>A</th><th>B</th></tr>
-        <tr><td>基础团费（2人）</td><td>¥59,600</td><td class="good">¥57,600</td></tr>
-        <tr><td>餐食自理</td><td class="good">较少</td><td class="mid">较多</td></tr>
-        <tr><td>自费深度项目</td><td class="good">较少</td><td class="mid">较多</td></tr>
-        <tr><td>购物压力</td><td class="mid">较明显</td><td class="good">较低</td></tr>
-        <tr><td>最终预算可控性</td><td class="good">高</td><td>中</td></tr>
-      </table>
-    </div>
-
-    <p>所以不能简单理解成“B 便宜 1000”。更准确地说：</p>
-    <p><b>A：</b>多花 ¥1,000/人，把更多吃饭、服务和流程的不确定性买掉。</p>
-    <p><b>B：</b>少花 ¥1,000/人，但把一部分选择权和消费决策留给自己。</p>
-  </section>
-
-  <section>
-    <h2>如果是我，会怎么选？</h2>
-    <div class="score">
-      <div class="score-card">
-        <div><b>A · 全包省心型</b></div>
-        <div class="score-number">8.0</div>
-        <div class="meter"><i></i></div>
-        <p>第一次欧洲、想看经典名胜、讨厌做攻略、希望吃住行省心的人，非常合适。</p>
-      </div>
-      <div class="score-card b">
-        <div><b>B · 旅行体验型</b></div>
-        <div class="score-number">9.2</div>
-        <div class="meter"><i></i></div>
-        <p>夫妻出游、喜欢拍照闲逛、希望少一点购物团味道、重视瑞士自然景观和城市自由时间，更适合。</p>
-      </div>
-    </div>
-
-    <h3>最终决策线</h3>
-    <div class="decision">
-      <div>
-        <b>💰 预算约 6 万</b>
-        两个人总预算比较充裕：<br><strong>选 B。</strong>
-      </div>
-      <div>
-        <b>👴 带父母</b>
-        更看重全程省心、少操心：<br><strong>选 A。</strong>
-      </div>
-      <div>
-        <b>🗼 最期待巴黎</b>
-        巴黎是此行绝对核心：<br><strong>认真考虑 A。</strong>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>一句话总结</h2>
-    <div class="highlight" style="font-size:19px;">
-      <b>如果是“我和媳妇两个人去欧洲玩”，在 A ¥29,800、B ¥28,800 这个价格下，我会直接选 B。</b>
-      <br><br>
-      因为 B 不是单纯便宜 ¥1,000，而是用更低的基础价格，换来了更高的自由度、更完整的瑞士自然景观和更舒服的城市旅行节奏。
-    </div>
-    <p style="color:#6b7280;">唯一需要注意：B 的最终花费取决于你们吃饭和自费项目怎么选。最理想的玩法不是“所有自费都买”，而是挑真正值得的 1～2 个。</p>
-  </section>
-
-  <div class="footer">
-    本网页根据本次聊天中的 A/B 欧洲游方案对比整理。评分和最终选择属于主观旅行建议，不代表旅行社官方评价。
-  </div>
+<div class="hero">
+<div class="eyebrow">EUROPE 12-DAY TOUR · A VS B · LONG-FORM COMPARISON</div>
+<h1>欧洲12天跟团游<br>到底选 A 还是 B？</h1>
+<div class="subtitle">这是把两轮讨论完整合并后的展示版：不仅比较团费，还把意大利、瑞士、巴黎、交通、酒店、餐食、自由度、购物、自费风险，以及“两个人最终可能花多少钱”的逻辑一起拆开。</div>
+<div class="price-grid">
+<div class="price"><div class="label">方案 A · 10/14 国航「王牌法意瑞」</div><strong>¥29,800 / 人</strong><div>两人基础团费：¥59,600</div></div>
+<div class="price b"><div class="label">方案 B · 10/16「意瑞法12天深度游」</div><strong>¥28,800 / 人</strong><div>两人基础团费：¥57,600</div></div>
 </div>
-</body>
-</html>
+<div class="winner">🏆 最终倾向：B。不是因为便宜 ¥1,000，而是因为同价位下，B 的旅行结构更符合“夫妻两个人去欧洲旅行”。</div>
+<div class="toc">
+<a href="#overview">总览</a><a href="#concept">设计思路</a><a href="#italy">意大利</a><a href="#swiss">瑞士</a><a href="#paris">巴黎</a><a href="#transport">交通</a><a href="#hotel">住宿</a><a href="#food">餐食</a><a href="#shopping">购物</a><a href="#cost">最终花费</a><a href="#decision">最终决策</a>
+</div>
+</div>
+
+<section id="overview"><h2>一、先给结论：两套团到底差在哪？</h2>
+<div class="table-wrap"><table>
+<tr><th>维度</th><th>A · ¥29,800</th><th>B · ¥28,800</th></tr>
+<tr><td>核心定位</td><td>传统高配跟团游</td><td class="good">半自由行 / 深度体验型</td></tr>
+<tr><td>自由度</td><td>⭐⭐</td><td class="good">⭐⭐⭐⭐</td></tr>
+<tr><td>瑞士自然风光</td><td>⭐⭐⭐⭐</td><td class="good">⭐⭐⭐⭐⭐</td></tr>
+<tr><td>意大利城市深度</td><td>⭐⭐⭐⭐</td><td class="good">⭐⭐⭐⭐½</td></tr>
+<tr><td>巴黎经典项目</td><td class="good">⭐⭐⭐⭐⭐</td><td>⭐⭐⭐⭐</td></tr>
+<tr><td>餐食省心程度</td><td class="good">⭐⭐⭐⭐⭐</td><td>⭐⭐⭐</td></tr>
+<tr><td>购物团属性</td><td class="warn">较明显</td><td class="good">较弱</td></tr>
+<tr><td>自费可控性</td><td class="good">高</td><td class="warn">中</td></tr>
+<tr><td>整体旅行体验</td><td>⭐⭐⭐⭐</td><td class="good">⭐⭐⭐⭐⭐</td></tr>
+</table></div>
+<div class="callout"><b>最核心的判断：</b>A 是“把很多东西提前给你安排好”，B 是“把选择权留给你”。A 的优势是省心和包含度，B 的优势是自由度、自然景观和更像真正旅行的节奏。</div>
+</section>
+
+<section id="concept"><h2>二、两套团的设计思路完全不同</h2>
+<div class="cards">
+<div class="card"><span class="tag">A · 传统高配跟团</span><h3>“我帮你安排好”</h3><p>逻辑基本是：我带你去 → 门票安排 → 导游讲解 → 吃饭安排 → 大巴拉你 → 再去下一个地方。</p><p>大量午晚餐已经安排，中餐以“七菜一汤”为主。优点是省心、稳定、预算可控；缺点是节奏紧，自由探索空间小。</p></div>
+<div class="card b"><span class="tag green">B · 半自由行 / 深度体验</span><h3>“经典给你安排，剩下自己决定”</h3><p>罗马、佛罗伦萨、巴黎等地都留出了自由活动；乌菲兹、威尼斯深度游、巴黎深度游等设计成可选自费项目。</p><p>它更像“基础团费 + 自己决定哪些体验值得加钱”。自由度高，但需要自己做预算。</p></div>
+</div></section>
+
+<section id="italy"><h2>三、意大利：B 整体更强</h2>
+<h3>1）罗马：B 的自由时间明显更有价值</h3>
+<div class="split"><div class="card"><b>A</b><p>斗兽场入内、威尼斯广场、许愿池、西班牙广场、帝国大道、City Walk。经典覆盖不错，但更像“跟团深度打卡”。</p></div><div class="card b"><b>B</b><p>西班牙广场、许愿池、威尼斯广场之外，还留出完整自由活动时段，并安排斗兽场约 2 小时 VIP + 专业讲解；第二天上午还能自己选择博尔盖塞美术馆、圣天使城堡、孔多蒂街等路线。</p></div></div>
+<div class="callout green"><b>判断：</b>夫妻旅行的话，B 的罗马明显更舒服——不是景点少，而是终于有时间“自己逛罗马”。</div>
+<h3>2）佛罗伦萨：B 的拍照和深度玩法更漂亮</h3><p>A 覆盖花之圣母大教堂、乔托钟楼、洗礼堂、领主广场、美第奇家族等经典内容，并安排 T 骨牛排和皮具店。</p><p>B 除了经典城市观光，还专门安排<b>米开朗琪罗广场 360°俯瞰佛罗伦萨</b>，同时乌菲兹美术馆、老宫可以按兴趣选择。</p>
+<div class="callout green"><b>判断：</b>佛罗伦萨 B 胜，尤其是米开朗琪罗广场 + 可选乌菲兹的组合。</div>
+<h3>3）比萨：景点接近，但 B 节奏更舒服</h3><p>A 主要是奇迹广场及斜塔外观，约 1 小时左右；B 给了约 1.5 小时，整体更宽松一些。</p>
+<h3>4）威尼斯：差距很明显</h3>
+<div class="cards"><div class="card"><b>A · 经典打卡型</b><ul><li>圣马可广场</li><li>圣马可大教堂外观</li><li>叹息桥</li><li>贡多拉约 20 分钟</li><li>约 45 分钟自由活动</li><li>特色海鲜面</li></ul></div><div class="card b"><b>B · 更完整的城市体验</b><ul><li>整段约 4 小时</li><li>贡多拉约 25 分钟</li><li>水巷探秘</li><li>里亚托桥</li><li>更完整的自由探索</li><li>另有 100 欧自费深度巡礼</li></ul></div></div>
+<div class="callout green"><b>判断：</b>喜欢拍照、逛小巷、感受城市的人，B 完胜。</div>
+<h3>5）米兰：B 明显更有诚意</h3><p>A 的米兰约 1 小时，米兰大教堂主要外观。B 给出约 <b>3.5 小时</b>，而且<b>米兰大教堂直接入内</b>，还可以自己选择登顶。</p>
+<div class="callout green"><b>判断：</b>米兰 B 完胜。</div>
+</section>
+
+<section id="swiss"><h2>四、瑞士：B 是整套方案最大的升级点</h2>
+<div class="route"><b>A：</b> 米兰 → 琉森 → 金色山口列车 → 因特拉肯 → 少女峰 → 法国</div>
+<div class="route"><b>B：</b> 米兰 → 卢塞恩 → 龙疆 → 少女峰 → 格林德瓦 → 菲斯特 → 金色山口 → 蒙特勒 → 日内瓦 → 巴黎</div>
+<h3>A 的优势：经典、集中</h3><p>A 的重点是琉森 + 金色山口 + 因特拉肯 + 少女峰。少女峰约 4 小时，还安排山顶简餐，经典程度很高。</p>
+<h3>B 的优势：瑞士不再只是“少女峰一日游”</h3><ul><li><b>龙疆</b>：湖泊 + 小镇 + 雪山。</li><li><b>少女峰</b>：保留核心项目。</li><li><b>格林德瓦</b>：安排梦幻山坡经典机位。</li><li><b>菲斯特</b>：缆车上至约 2168 米，可以轻徒步去巴查尔普湖，也可自行选择山地卡丁车等项目。</li><li><b>金色山口</b>：保留经典全景列车。</li><li><b>蒙特勒 + 日内瓦</b>：增加瑞士法语区体验。</li></ul>
+<div class="callout green"><b>我最看重 B 的这一段：</b>湖泊、小镇、雪山、缆车、全景列车组合起来，整体自然风光明显更丰富。</div>
+<h3>一个重要提醒</h3><p>菲斯特的部分娱乐项目并未全部打包进团费，例如山地卡丁车需要自行预约。不要把“自费项目推荐”理解成团费已经包含。</p>
+</section>
+
+<section id="paris"><h2>五、巴黎：A 反而更像“第一次去巴黎的标准答案”</h2>
+<h3>A 的巴黎配置非常强</h3><ul><li>卢浮宫 VIP / 官方持牌讲解</li><li>巴黎圣母院入内</li><li>凯旋门、协和广场、香榭丽舍、埃菲尔铁塔</li><li><b>塞纳河星级船餐厅午餐 + 游船</b></li><li>下午约 2 小时巴黎自由活动</li><li><b>埃菲尔铁塔夜间闪灯秀</b></li><li>凡尔赛宫 VIP / 官方持牌讲解</li></ul>
+<div class="callout"><b>这就是 A 最大的“王牌”：巴黎非常完整。</b> 如果第一次去巴黎，想把经典名场面一次打卡完，A 很有吸引力。</div>
+<h3>B 的巴黎：深度与自由</h3><ul><li>卢浮宫人工讲解 + 自由参观</li><li>凡尔赛宫人工讲解</li><li>巴黎圣母院入内</li><li><b>巴黎歌剧院直接包含门票</b></li><li>凯旋门、香榭丽舍、埃菲尔铁塔等</li><li>最后一天保留较完整的巴黎自由活动</li></ul>
+<p>B 也提供巴黎深度游自费选项，例如 100 欧的塞纳河/城市深度项目，以及 70 欧的荣军院。</p>
+<div class="callout orange"><b>判断：</b>第一次去巴黎、最看重巴黎“浪漫名场面”——A 更强；更看重自由逛街、艺术和城市体验——B 更舒服。</div>
+</section>
+
+<section id="transport"><h2>六、交通：B 有一个非常容易被忽略的优势</h2><p>A 以旅游大巴为主，瑞士安排金色山口列车。</p><div class="verdict-box"><h3 style="margin-top:0">🇨🇭 日内瓦 → 🇫🇷 巴黎：TGV 高速列车</h3><p>约 3.5 小时，体验欧洲高速铁路。相较长距离大巴，这一段对体感舒适度的提升很明显。</p></div><p>旅游团最容易让人累的就是连续几个小时坐大巴。B 把瑞士到巴黎这一段换成 TGV，我认为是非常实在的加分项。</p></section>
+
+<section id="hotel"><h2>七、住宿：B 的表述更透明</h2><div class="table-wrap"><table><tr><th>项目</th><th>A</th><th>B</th></tr><tr><td>标准</td><td>Booking 4 星 / 4～5 星</td><td class="good">全程网评 4 星</td></tr><tr><td>酒店评分表述</td><td>最终以实际入住为准</td><td class="good">Booking 评分 7.5+（以发布时为准）</td></tr><tr><td>特色住宿</td><td>无明确突出</td><td class="good">1 晚瑞士特色木屋或湖区酒店</td></tr></table></div><p class="note">两套都提醒：展会或大型活动期间，酒店可能安排到较远位置；欧洲酒店星级标准与国内也不完全一致。</p></section>
+
+<section id="food"><h2>八、餐食：A 更省心，B 更自由</h2><div class="cards"><div class="card"><b>A · “不用想吃什么”</b><p>大量午晚餐已经安排，以中餐“七菜一汤”为主；还有 T 骨牛排、威尼斯海鲜面、奶酪火锅、塞纳河星级船餐厅等。</p><p><b>优点：</b>预算可控、老人更容易适应。</p></div><div class="card b"><b>B · “我自己决定吃什么”</b><p>特色餐包括 T 骨牛排、威尼斯墨鱼面，同时也留出更多午晚餐自理时间。</p><p><b>优点：</b>可以自己找当地餐厅，不必每天跟着团吃“七菜一汤”。</p></div></div><div class="callout green"><b>个人偏好判断：</b>两个人旅行的话，我更喜欢 B。欧洲都跑到这里了，偶尔自己找一家餐厅体验当地饮食，更有旅行感。</div></section>
+
+<section id="shopping"><h2>九、购物：A 的“团味”更明显</h2><p>A 有比较明确的购物安排：</p><ul><li>佛罗伦萨：Peruzzi 皮具店，约 1 小时。</li><li>法国：老佛爷或 DFS，材料写明不低于 2 小时。</li></ul><p>B 同样推荐老佛爷/巴黎春天，但整体更像自由购物，而不是把购物店作为固定景点。</p><div class="callout"><b>如果不喜欢购物团：</b>B 更合适。</div></section>
+
+<section id="included"><h2>十、到底哪些东西已经包含？</h2>
+<h3>A：更强调“全包”</h3><p>行程材料列出：酒店及早餐、部分午晚餐、豪华巴士、中文陪同、标注项目门票、国际往返机票/欧洲境内段、保险等；但境外司机、餐厅服务费、意大利当地地陪服务费、酒店税，以及个人消费等仍可能另算。</p>
+<h3>B：包含项目其实已经不少</h3><p>B 已包含：全程国际机票、10 晚网评 4 星酒店、旅游巴士、中文导游及司机、西式早餐、中餐、两顿特色餐、意大利签证、保险、金色山口列车二等座、日内瓦—巴黎 TGV 二等车票，以及罗马斗兽场、罗马深度游、贡多拉、米兰大教堂、少女峰、菲斯特往返缆车、卢浮宫人工讲解、凡尔赛人工讲解、巴黎歌剧院等。</p>
+<div class="callout green"><b>所以 B 并不是“基础团费什么都不含”。</b> 它其实已经把大量高价值项目包进去了，只是把部分更深度的体验单独拆出来，让游客自己决定要不要买。</div>
+</section>
+
+<section id="cost"><h2>十一、真正要算的不是团费，而是“最终落地成本”</h2>
+<div class="table-wrap"><table><tr><th>成本项</th><th>A</th><th>B</th></tr><tr><td>2 人基础团费</td><td>¥59,600</td><td class="good">¥57,600</td></tr><tr><td>额外自理餐食</td><td class="good">较少</td><td class="warn">较多</td></tr><tr><td>深度项目自费</td><td class="good">较少</td><td class="warn">较多</td></tr><tr><td>购物压力</td><td class="warn">较明显</td><td class="good">较低</td></tr><tr><td>预算可控性</td><td class="good">高</td><td>中</td></tr></table></div>
+<h3>B 的“自费菜单”其实可以选择性消费</h3><p>典型价格包括：</p><ul><li>罗马深度游：50 欧/人</li><li>乌菲兹美术馆专家导览：100 欧/人</li><li>老宫：70 欧/人</li><li>威尼斯深度巡礼：100 欧/人</li><li>巴黎深度游：100 欧/人</li><li>荣军院：70 欧/人</li></ul>
+<div class="callout orange"><b>关键：</b>不要看到自费项目就全部买。B 真正合理的玩法是“挑最值得的 1～2 个”。比如两个人选择乌菲兹 + 威尼斯深度，大约增加 400 欧；没兴趣的项目完全可以不参加。</div>
+<h3>所以两套的价格差，实际上是：</h3><div class="split"><div class="card"><b>A：¥29,800 / 人</b><p>多花 ¥1,000 / 人，换来更多已打包的餐食、流程和服务，旅行过程中更容易做到“交钱后一路跟着走”。</p></div><div class="card b"><b>B：¥28,800 / 人</b><p>少花 ¥1,000 / 人，同时保留更多自由选择权。最终价格取决于你们自己选择吃什么、玩什么。</p></div></div>
+</section>
+
+<section id="decision"><h2>十二、最终决策：到底谁赢？</h2>
+<div class="score"><div class="score-card"><div class="tag">A · 全包省心型</div><div class="score-num">8.0</div><div class="meter"><i></i></div><p>第一次欧洲游、不想做攻略、希望吃住行省心、特别期待巴黎经典项目的人，很适合。</p></div><div class="score-card b"><div class="tag green">B · 旅行体验型</div><div class="score-num">9.2</div><div class="meter"><i></i></div><p>夫妻出游、喜欢拍照、喜欢自由逛、重视瑞士自然风光、讨厌被固定行程束缚的人，更适合。</p></div></div>
+<h3>四种典型情况</h3><div class="decision-grid">
+<div class="decision"><b>👫 夫妻两个人去</b><span><strong>B</strong>。自由时间和城市体验的价值更大。</span></div>
+<div class="decision"><b>👴 带父母去</b><span><strong>A</strong>。吃住行全包更省心。</span></div>
+<div class="decision"><b>🗼 最期待巴黎</b><span><strong>A</strong>。巴黎名场面组合更完整。</span></div>
+<div class="decision"><b>🏔️ 最喜欢自然风光</b><span><strong>B</strong>。瑞士段明显更丰富。</span></div>
+<div class="decision"><b>🛍️ 不喜欢购物团</b><span><strong>B</strong>。固定购物安排更少。</span></div>
+<div class="decision"><b>💰 不想被额外收费</b><span><strong>A</strong>。基础费用结构更容易预测。</span></div>
+</div>
+<div class="verdict-box" style="margin-top:20px"><h3 style="margin-top:0">最终拍板：B</h3><p style="font-size:18px">在 <b>A ¥29,800/人</b>、<b>B ¥28,800/人</b> 这个实际价格下，如果是夫妻两个人去，我会选 B。</p><p>原因不是简单的“便宜一千”，而是 B 同时解决了这几个问题：<b>更高自由度 + 更丰富瑞士 + 米兰大教堂入内 + 菲斯特 + TGV + 更多城市深度</b>。它更接近真正的“旅行”，而不是高密度的景点搬运。</p></div>
+<div class="callout" style="margin-top:20px"><b>不过有一个前提：</b>B 不适合“看见自费项目全部都想买”的玩法。最好的方式是提前挑 1～2 个真正感兴趣的项目，把剩余预算留给当地餐厅、咖啡馆、自由活动和个人体验。</div>
+</section>
+
+<section><h2>十三、超简版：给小伙伴看这一段就够了</h2><div class="verdict-box">
+<p><b>A ¥29,800：</b>传统高配跟团，巴黎非常强，餐食和流程更省心，但行程更满、自由度更低、购物属性更明显。</p>
+<p><b>B ¥28,800：</b>半自由行深度玩法，意大利更舒服、瑞士明显更强、交通更现代，自由时间更多，但需要自己承担一部分餐食和选择性自费。</p>
+<p style="font-size:22px"><b>两个人夫妻出游：B。</b></p>
+</div></section>
+
+<div class="footer">本网页根据本次聊天中上传的两份旅行方案及两轮对比结论整理。评分属于主观旅行体验判断，不代表旅行社官方评级。</div>
+</div></body></html>
